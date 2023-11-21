@@ -1,2 +1,2 @@
 # cipher
-Encrypting and decrypting a classified message
+This program uses a binary search tree to encrypt and decrypt a classified message. First, it constructs a binary search tree based on a cypher key, with each node containing a letter. The encryption consists of a string of <, >, *, and ! symbols, which represent the paths to the nodes containing each letter in the classified message. The asterick indicates a root, > indicates a right child, < indicates a left child, and ! serves as a delimiter.
